@@ -68,8 +68,8 @@ const Second = (props) =>{
        longitude: -81.228647,
        zoom: 6
     });
-    const token = 'pk.eyJ1Ijoiby1sZW1pc2hrYSIsImEiOiJja2tuMmlqZ28xamR4MnVtcW5lMmpuYjJ0In0.BlF5JXx_sqgCB4Nl1q10EQ',
-          styleURL = 'mapbox://styles/o-lemishka/ckkn2lwzd2e3e18o206811gwf';
+    const token = process.env.REACT_APP_TOKEN,
+          styleURL = process.env.REACT_APP_STYLE;
 
     const markerStyles={
         display: 'flex',

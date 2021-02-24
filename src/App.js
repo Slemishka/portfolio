@@ -7,7 +7,7 @@ import Projects from "./containers/Projects/Projects";
 
 
 function App() {
-
+require('dotenv').config();
   return (
     <div>
       <Layout>

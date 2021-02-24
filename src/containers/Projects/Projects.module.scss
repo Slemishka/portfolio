@@ -41,6 +41,9 @@
     width: 600px;
     font-size: 1.7em;
   }
+@include lessThan(500px){
+  top: 45%;
+}
 }
 .ScrollDown{
   position: absolute;
