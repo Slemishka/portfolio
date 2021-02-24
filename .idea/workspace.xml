@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64b594c2-5022-411d-ae7b-883abbaa4e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Denvol/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Denvol/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Denvol/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Denvol/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="64b594c2-5022-411d-ae7b-883abbaa4e36" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Main/Info/Info.module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Responsive/fonts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -147,6 +150,17 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +300,7 @@
       <workItem from="1613495657449" duration="13237000" />
       <workItem from="1613599772818" duration="18883000" />
       <workItem from="1613784325434" duration="6609000" />
-      <workItem from="1614039458671" duration="16349000" />
+      <workItem from="1614039458671" duration="16606000" />
     </task>
     <task id="LOCAL-00001" summary="deployment">
       <created>1614128939672</created>
@@ -295,11 +309,18 @@
       <option name="project" value="LOCAL" />
       <updated>1614128939672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added pictures">
+      <created>1614129375290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614129375290</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191684000" />
+    <option name="totallyTimeSpent" value="191941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,7 +352,7 @@
       <window_info anchor="bottom" id="Floobits" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.498779" visible="true" weight="0.3281893" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.498779" weight="0.3281893" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.501221" side_tool="true" weight="0.3281893" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" weight="0.32921812" />
       <window_info anchor="bottom" id="TypeScript" order="15" show_stripe_button="false" weight="0.32921812" />
@@ -346,7 +367,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="deployment" />
+    <MESSAGE value="added pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pictures" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/containers/Projects/media/Denvol/3.png">
@@ -449,13 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/fonts/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -682,8 +697,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/Info/Info.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="147" column="28" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Responsive/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
