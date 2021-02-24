@@ -1,0 +1,104 @@
+@import "~fonts/fonts";
+@import "containers/Responsive/media";
+.ContactMe{
+  height: 100vh;
+  width: 100%;
+}
+.Wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #101010b8;
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+}
+.Content{
+  width: 40%;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  @extend .font_regular;
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  @include lessThan(1024px){
+    position: initial;
+    width: 70%;
+    margin: 10% auto 0;
+  }
+  @include lessThan(768px){
+    width: 90%;
+    font-size: 1.2em;
+  }
+}
+.LeaveMessage{
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  right: 5%;
+  @extend .font_light;
+  h2{
+    font-size: 1.5em;
+    color: white;
+  }
+  label{
+    color: white;
+    display: block;
+  }
+
+  input,textarea{
+    padding: 10px;
+    width: 50%;
+    margin: 10px 0;
+    background-color: #000000b5;
+    border: none;
+    color: white;
+    @include lessThan(500px){
+      width: 80%;
+    }
+  }
+  @include lessThan(1024px){
+    position: initial;
+    width: 70%;
+    margin: 0 auto 30px;
+  }
+  @include lessThan(768px){
+    width: 100%;
+  }
+}
+
+.Btn{
+  padding: 10px;
+  background-color: #99e6fc;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    background-color: black;
+    color: white;
+  }
+}
+.Error{
+  color: white;
+  background-color: indianred;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+.Loading{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  &>*:first-child{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}

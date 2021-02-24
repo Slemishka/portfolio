@@ -1,0 +1,7 @@
+@import "~fonts/fonts";
+.Skills{
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  @extend .font_regular;
+}

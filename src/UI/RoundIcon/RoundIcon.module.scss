@@ -1,0 +1,22 @@
+@import "containers/Responsive/media";
+.RoundIcon{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 5px 10px;
+  font-size: 1em;
+  @include lessThan(1024px){
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+  }
+  @include lessThan(424px){
+    width: 40px;
+    height: 40px;
+    font-size: 1.4em;
+  }
+}

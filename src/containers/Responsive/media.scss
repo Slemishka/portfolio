@@ -1,0 +1,52 @@
+@mixin phoneSmall(){
+  @media screen and (max-width: 374px){
+    @content;
+  }
+}
+@mixin phoneMedium(){
+  @media screen and (min-width: 375px) and (max-width: 424px){
+    @content;
+  }
+}
+@mixin phoneLarge(){
+  @media screen and (min-width: 425px) and (max-width: 767px){
+    @content;
+  }
+}
+@mixin tablet(){
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    @content;
+  }
+}
+
+@mixin mobile(){
+  @media screen and (max-width: 767px){
+    @content;
+  }
+}
+@mixin notMobile(){
+  @media screen and (min-width: 768px){
+    @content;
+  }
+}
+@mixin lessThan($number){
+  @media screen and (max-width: $number){
+    @content;
+  }
+}
+@mixin moreThan($number){
+  @media screen and (min-width: $number){
+    @content;
+  }
+}
+@mixin between($number1,$number2){
+  @media screen and (min-width: $number1) and (max-width: $number2){
+    @content;
+  }
+}
+
+@mixin maxHeight($number){
+  @media screen and (max-height: $number) {
+    @content;
+  }
+}

@@ -1,0 +1,45 @@
+@import "~fonts/fonts";
+@import "containers/Responsive/media";
+
+.ProjectItem{
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 25px;
+  border-radius: 10%;
+  box-shadow: 5px 5px 11px -1px #000000;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @extend .font_regular;
+  button{
+    background-color: black;
+  }
+  @include moreThan(768px){
+    font-size: 1.2em;
+  }
+  @include moreThan(2000px){
+    font-size: 150%;
+  }
+  @include lessThan(1600px){
+    width: 80%;
+  }
+}
+.Btn{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    background-color: #99e6fc;
+    color: black;
+  }
+}
