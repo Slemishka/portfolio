@@ -101,8 +101,8 @@ const Second = (props) =>{
                     {...viewport}
                     width={'100%'}
                     height={'100%'}
-                    mapboxApiAccessToken={token}
-                    mapStyle={styleURL}
+                    mapboxApiAccessToken={'pk.eyJ1Ijoiby1sZW1pc2hrYSIsImEiOiJja2tuMmlqZ28xamR4MnVtcW5lMmpuYjJ0In0.BlF5JXx_sqgCB4Nl1q10EQ'}
+                    mapStyle={'mapbox://styles/o-lemishka/ckkn2lwzd2e3e18o206811gwf'}
                     onViewportChange={(viewport)=>setViewport(viewport)}>
                     <Marker
                         longitude={-81.228647}
