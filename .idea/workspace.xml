@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b594c2-5022-411d-ae7b-883abbaa4e36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Info/Info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.js" afterDir="false" />
     </list>
     <list id="1cc0842c-91a6-42ff-95a2-939c4c80b89d" name="Revert &quot;final_hopefully&quot;" comment="Revert &quot;final_hopefully&quot;&#10;&#10;This reverts commit d62444ca" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,29 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.module.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Main/Info/Info.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="104" column="83" selection-start-line="104" selection-start-column="83" selection-end-line="104" selection-end-column="83" />
+            <state relative-caret-position="361">
+              <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -107,7 +89,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/notes.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/portfolioNotes.txt" />
         <option value="$PROJECT_DIR$/src/components/Main/MainMobile/MainMobile.js" />
-        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss" />
         <option value="$PROJECT_DIR$/src/layout/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/UI/RoundIcon/RoundIcon.module.scss" />
@@ -124,6 +105,7 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/components/Main/Info/Info.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
       </list>
     </option>
   </component>
@@ -146,6 +128,11 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,6 +223,7 @@
       <workItem from="1613599772818" duration="18883000" />
       <workItem from="1613784325434" duration="6609000" />
       <workItem from="1614039458671" duration="16606000" />
+      <workItem from="1614808324805" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="deployment">
       <created>1614128939672</created>
@@ -265,11 +253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1614141627826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final2.1">
+      <created>1614142676762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614142676762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198085000" />
+    <option name="totallyTimeSpent" value="201038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,9 +276,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1680" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.1965812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.1990232" />
       <window_info id="Structure" order="1" sideWeight="0.5020576" side_tool="true" weight="0.17887668" />
       <window_info id="npm" order="2" sideWeight="0.5007657" side_tool="true" weight="0.24969475" />
       <window_info id="Project Explorer" order="3" />
@@ -360,7 +354,8 @@
     <MESSAGE value="added pictures" />
     <MESSAGE value="Final" />
     <MESSAGE value="Final2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final2.0" />
+    <MESSAGE value="Final2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final2.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/react-scroll-motion/dist/Animator.d.ts">
@@ -380,8 +375,8 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@brainhubeu/react-carousel/lib/style.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@brainhubeu/react-carousel/lib/react-carousel.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,16 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="59" selection-start-line="35" selection-start-column="32" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -676,13 +661,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -696,10 +686,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="361">
+          <caret line="77" column="44" lean-forward="true" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

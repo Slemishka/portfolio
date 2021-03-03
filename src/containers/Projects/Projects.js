@@ -72,7 +72,7 @@ const Projects = () => {
                 </div>
                 <ProjectItem
                     images={[denvol1,denvol2,denvol3,denvol4]}
-                    link={'google.com'}
+                    link={'https://denvolcontracting.com/'}
                     name={'Denvol Contracting'}
                     description={DenvolDescr}
                     scroll={handleScrolling}
