@@ -47,7 +47,7 @@ const Info = (props) => {
 
 const First = () =>{
     const openResume=()=>{
-        window.open('https://drive.google.com/file/d/1wJPnBmMsvoXfJjb2HqhariTku20I0Fg-/view?usp=sharing','_blank');
+        window.open('https://drive.google.com/file/d/1TmIyTVztXX0egXgb3tYAwVkdUe3gdgCo/view?usp=sharing','_blank');
     };
     return (
         <div className={classes.First}>
@@ -95,8 +95,10 @@ const Second = (props) =>{
             </div>
             <Location className={classes.SecondArt}/>
             <div className={classes.SecondMap}
-                 onTouchStart={()=>props.scroll(true)}
-                 onTouchEnd={()=>props.scroll(false)}>
+                 onTouchStart={()=>{if(props.scroll){props.scroll(true)}}}
+                 onTouchEnd={()=>{if(props.scroll){props.scroll(false)}}}
+                 onMouseEnter={()=>{if(props.scroll){props.scroll(true)}}}
+                 onMouseLeave={()=>{if(props.scroll){props.scroll(false)}}}>
                 <ReactMapGL
                     {...viewport}
                     width={'100%'}
