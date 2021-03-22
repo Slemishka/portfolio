@@ -89,7 +89,7 @@ const Second = (props) =>{
         <div>
             <div>
                 <p style={{margin:'20px auto'}}>
-                    Was born and raised in Ukraine,EU. Have been perfecting my english and programming skills to enroll in
+                    Was born and raised in Ukraine,EU. Have been perfecting my English and programming skills to enroll in
                     Canadian college on Web Development program in London, Ontario.
                 </p>
             </div>
