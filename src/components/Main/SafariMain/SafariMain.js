@@ -18,7 +18,7 @@ const SafariMain = () => {
     const handleScrolling = bool =>{
         setScrolling(bool);
     };
-
+console.log(currentPage);
 
     return (
         <div className={classes.SafariMain} style={{backgroundColor:Colors[currentPage+1]['background']}}>
@@ -41,27 +41,31 @@ const SafariMain = () => {
                     <div className={classes.Content}>
                         <Info id={1} color={'black'}/>
                     </div>
-                    {currentPage===0?<ScrollDown change={handlePageChange} page={1} color={'black'}/>:null}
+                    {currentPage===0&&<ScrollDown change={handlePageChange} page={1} color={'black'}/>}
                 </div>
                 <div className={classes.Container}>
                     <div className={classes.Content}>
                         <Info id={2} color={'white'} scroll={handleScrolling}/>
                     </div>
+                    {currentPage===1&&<ScrollDown change={handlePageChange} page={2} color={'white'}/>}
                 </div>
                 <div className={classes.Container}>
                     <div className={classes.Content}>
                         <Info id={3} color={'black'}/>
                     </div>
+                    {currentPage===2&&<ScrollDown change={handlePageChange} page={3} color={'black'}/>}
                 </div>
                 <div className={classes.Container}>
                     <div className={classes.Content}>
                         <Info id={4} color={'white'}/>
                     </div>
+                    {currentPage===3&&<ScrollDown change={handlePageChange} page={4} color={'white'}/>}
                 </div>
                 <div className={classes.Container}>
                     <div className={classes.Content}>
                         <Info id={5} color={'#F28888'}/>
                     </div>
+                    {currentPage===4&&<ScrollDown change={handlePageChange} page={0} color={'#F28888'}/>}
                 </div>
             </ReactPageScroller>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {motion} from "framer-motion";
 import classes from "../../../containers/Projects/Projects.module.scss";
-import {VscFoldDown} from "react-icons/vsc";
+import {VscFoldDown,VscFoldUp} from "react-icons/vsc";
 
 const ScrollDown = props => {
     return (
@@ -13,8 +13,12 @@ const ScrollDown = props => {
                             repeatDelay:1
                         }} className={classes.ScrollDown} onClick={()=>props.change(props.page)}
                         style={{color:props.color}}>
-                Scroll down <br/>
-                <VscFoldDown/>
+                Scroll {props.up?"up":"down"}<br/>
+                {props.up ?
+                    <VscFoldUp/>
+                    :
+                    <VscFoldDown/>
+                }
             </motion.div>
     );
 };

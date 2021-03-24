@@ -45,6 +45,9 @@ const Projects = () => {
     return (
         <div className={classes.Projects}>
             {isDesktop && <Menu top={true}/>}
+            {currentPage===3?
+                <ScrollDown change={handlePageChange} page={0} up/>:
+                <ScrollDown change={handlePageChange} page={currentPage+1}/>}
             <ReactPageScroller pageOnChange={handlePageChange}
                                customPageNumber={currentPage}
                                containerHeight={'100%'}
@@ -68,7 +71,6 @@ const Projects = () => {
                             />
                         </div>
                     </div>
-                    <ScrollDown change={handlePageChange} page={1}/>
                 </div>
                 <ProjectItem
                     images={[denvol1,denvol2,denvol3,denvol4]}
@@ -91,7 +93,6 @@ const Projects = () => {
                     description={Redesign}
                     scroll={handleScrolling}
                 />
-
             </ReactPageScroller>
         </div>
     );
