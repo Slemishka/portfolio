@@ -4,10 +4,7 @@
     <list default="true" id="64b594c2-5022-411d-ae7b-883abbaa4e36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" afterDir="false" />
     </list>
     <list id="1cc0842c-91a6-42ff-95a2-939c4c80b89d" name="Revert &quot;final_hopefully&quot;" comment="Revert &quot;final_hopefully&quot;&#10;&#10;This reverts commit d62444ca" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,21 +20,33 @@
     <favorites_list name="portfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="538">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="618">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -101,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/components/Main/Info/Info.module.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/.env" />
-        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" />
@@ -112,10 +120,11 @@
         <option value="$PROJECT_DIR$/src/components/Main/Info/Info.js" />
         <option value="$PROJECT_DIR$/src/components/Main/MainMobile/MainMobile.js" />
         <option value="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js" />
         <option value="$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js" />
+        <option value="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js" />
+        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.module.scss" />
       </list>
     </option>
   </component>
@@ -218,7 +227,8 @@
       <workItem from="1614039458671" duration="16606000" />
       <workItem from="1614808324805" duration="2173000" />
       <workItem from="1615069425687" duration="7496000" />
-      <workItem from="1616616266035" duration="2736000" />
+      <workItem from="1616616266035" duration="2769000" />
+      <workItem from="1616680885694" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="deployment">
       <created>1614128939672</created>
@@ -269,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615080110474</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final2.4&#10;&#10;&quot;changed scrolling down button for Safari&quot;">
+      <created>1616622354740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616622354741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211480000" />
+    <option name="totallyTimeSpent" value="211603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,12 +384,13 @@
     <MESSAGE value="Final2.1" />
     <MESSAGE value="Final2.2" />
     <MESSAGE value="Final2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final2.3" />
+    <MESSAGE value="Final2.4&#10;&#10;&quot;changed scrolling down button for Safari&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final2.4&#10;&#10;&quot;changed scrolling down button for Safari&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@brainhubeu/react-carousel/lib/style.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@brainhubeu/react-carousel/lib/react-carousel.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -668,27 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,20 +703,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="67" column="100" selection-start-line="67" selection-start-column="100" selection-end-line="67" selection-end-column="100" />
+        <state relative-caret-position="618">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="538">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
         </state>
       </provider>
     </entry>

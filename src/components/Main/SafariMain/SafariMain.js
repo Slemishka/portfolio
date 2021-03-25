@@ -65,7 +65,7 @@ console.log(currentPage);
                     <div className={classes.Content}>
                         <Info id={5} color={'#F28888'}/>
                     </div>
-                    {currentPage===4&&<ScrollDown change={handlePageChange} page={0} color={'#F28888'}/>}
+                    {currentPage===4&&<ScrollDown change={handlePageChange} up page={0} color={'#F28888'}/>}
                 </div>
             </ReactPageScroller>
         </div>
