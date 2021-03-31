@@ -13,6 +13,15 @@ export {default as beer1} from './WebDesign/main.png';
 export {default as beer2} from './WebDesign/second.png';
 export {default as beer3} from './WebDesign/third.png';
 
+export {default as Lamp1} from './Lamp/Lamp1.png';
+export {default as Lamp2} from './Lamp/Lamp2.png';
+export {default as Lamp3} from './Lamp/Lamp3.png';
+export {default as Lamp4} from './Lamp/Lamp4.png';
+export {default as Lamp5} from './Lamp/Lamp5.png';
+
+
+
+
 export {default as art} from './art.png';
 
 

@@ -7,6 +7,8 @@ import ReactPageScroller from 'react-page-scroller';
 import {denvol1,denvol2,denvol3,denvol4} from './media/import';
 import {first1,first2,first3,first4} from "./media/import";
 import {beer1,beer2,beer3} from "./media/import";
+import {Lamp1,Lamp2,Lamp3,Lamp4,Lamp5} from "./media/import";
+import {DenvolDescr,FirstProjDescr,Redesign,Lamp} from './data';
 import {art} from './media/import';
 import RoundLink from "../../UI/RoundLink/RoundLink";
 import {AiOutlineGithub} from "react-icons/ai";
@@ -25,27 +27,12 @@ const Projects = () => {
     const handleScrolling = bool =>{
       setScrolling(bool);
     };
-
-    const DenvolDescr = (<p>
-        My latest client project for construction company.
-        Web application is fully responsive and is built on <strong>React.</strong> <br/>
-        Has Firebase as a media storage as well as a Database
-    </p>);
-    const FirstProjDescr = (<p>
-        My first ever project that I have developed. <br/>
-        It uses HTML, LESS, JavaScript, Jquery and Gulp.
-    </p>);
-    const Redesign = (<p>
-        My school re-design project of existing website. I chose the "beerstore",
-        because at the time they had really poorly designed and written web application.
-        I wrote purely on HTML5, CSS and Vanilla JS since we couldn't use anything else.
-    </p>);
     const isDesktop = useMediaQuery({query: '(min-width: 1024px)'});
 
     return (
         <div className={classes.Projects}>
             {isDesktop && <Menu top={true}/>}
-            {currentPage===3?
+            {currentPage===4?
                 <ScrollDown change={handlePageChange} page={0} up/>:
                 <ScrollDown change={handlePageChange} page={currentPage+1}/>}
             <ReactPageScroller pageOnChange={handlePageChange}
@@ -80,19 +67,26 @@ const Projects = () => {
                     scroll={handleScrolling}
                 />
                 <ProjectItem
-                    images={[first1,first2,first3,first4]}
-                    link={'https://github.com/Slemishka/main-project'}
-                    name={'My First Project'}
-                    description={FirstProjDescr}
-                    scroll={handleScrolling}
-                />
-                <ProjectItem
                     images={[beer1,beer2,beer3]}
                     link={'https://github.com/Slemishka/web-design'}
                     name={'Re-design existing Web App'}
                     description={Redesign}
                     scroll={handleScrolling}
                 />
+                <ProjectItem
+                    images={[Lamp1,Lamp2,Lamp3,Lamp4,Lamp5]}
+                    link={'https://github.com/Slemishka/LAMP'}
+                    name={'Final LAMP project'}
+                    description={Lamp}
+                    scroll={handleScrolling}
+                />
+                <ProjectItem
+                images={[first1,first2,first3,first4]}
+                link={'https://github.com/Slemishka/main-project'}
+                name={'My First Project'}
+                description={FirstProjDescr}
+                scroll={handleScrolling}
+                 />
             </ReactPageScroller>
         </div>
     );
