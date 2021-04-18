@@ -42,7 +42,7 @@ const ContactMe = () => {
         }
     };
     const openResume=()=>{
-      window.open('https://drive.google.com/file/d/1TmIyTVztXX0egXgb3tYAwVkdUe3gdgCo/view?usp=sharing','_blank');
+      window.open('https://drive.google.com/file/d/13z4d1H4M89hYZ7cgxXP4JUA9kRhyuYt2/view?usp=sharing','_blank');
     };
 
 

@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b594c2-5022-411d-ae7b-883abbaa4e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Lamp/Lamp1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Lamp/Lamp2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Lamp/Lamp3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Lamp/Lamp4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Projects/media/Lamp/Lamp5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects/media/import.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects/media/import.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Info/Info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" afterDir="false" />
     </list>
     <list id="1cc0842c-91a6-42ff-95a2-939c4c80b89d" name="Revert &quot;final_hopefully&quot;" comment="Revert &quot;final_hopefully&quot;&#10;&#10;This reverts commit d62444ca" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,38 +20,7 @@
     <favorites_list name="portfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Projects/data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Projects/media/import.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,12 +79,10 @@
         <option value="$PROJECT_DIR$/src/.env" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" />
         <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Main/Main.js" />
         <option value="$PROJECT_DIR$/src/components/Menu/Menu.module.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/Main.module.scss" />
-        <option value="$PROJECT_DIR$/src/components/Main/Info/Info.js" />
         <option value="$PROJECT_DIR$/src/components/Main/MainMobile/MainMobile.js" />
         <option value="$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.module.scss" />
         <option value="$PROJECT_DIR$/src/components/ProjectItem/ProjectItem.module.scss" />
@@ -131,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/containers/Projects/media/import.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/data.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
+        <option value="$PROJECT_DIR$/src/components/Main/Info/Info.js" />
+        <option value="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" />
       </list>
     </option>
   </component>
@@ -148,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,27 +127,28 @@
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="SafariMain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +238,8 @@
       <workItem from="1615069425687" duration="7496000" />
       <workItem from="1616616266035" duration="2769000" />
       <workItem from="1616680885694" duration="120000" />
-      <workItem from="1617157186538" duration="2872000" />
+      <workItem from="1617157186538" duration="3037000" />
+      <workItem from="1618787650441" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="deployment">
       <created>1614128939672</created>
@@ -340,11 +304,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616680995285</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final2.5&#10;&#10;&quot;added lamp&quot;">
+      <created>1617160219829</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617160219829</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214505000" />
+    <option name="totallyTimeSpent" value="215003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,9 +327,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.2014652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.2039072" />
       <window_info id="Structure" order="1" sideWeight="0.5020576" side_tool="true" weight="0.17887668" />
       <window_info id="npm" order="2" sideWeight="0.5007657" side_tool="true" weight="0.24969475" />
       <window_info id="Project Explorer" order="3" />
@@ -440,7 +410,8 @@
     <MESSAGE value="Final2.3" />
     <MESSAGE value="Final2.4&#10;&#10;&quot;changed scrolling down button for Safari&quot;" />
     <MESSAGE value="Final2.4.2&#10;&#10;&quot;changed scrolling down button for Safari&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final2.4.2&#10;&#10;&quot;changed scrolling down button for Safari&quot;" />
+    <MESSAGE value="Final2.5&#10;&#10;&quot;added lamp&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final2.5&#10;&#10;&quot;added lamp&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@brainhubeu/react-carousel/lib/react-carousel.js">
@@ -624,26 +595,6 @@
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Menu/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -686,40 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/Info/Info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1810">
-          <caret line="95" column="53" lean-forward="true" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Main/MainMobile/MainMobile.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/MainMobile/MainMobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,20 +672,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UI/ScrollDown/ScrollDown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Projects/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -775,19 +693,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Projects/data.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
+        <state relative-caret-position="198">
           <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/Info/Info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2839">
+          <caret line="49" column="103" selection-start-line="49" selection-start-column="103" selection-end-line="49" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="101" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/MainMobile/MainMobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/SafariMain/SafariMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
